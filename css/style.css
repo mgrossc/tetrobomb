@@ -1,0 +1,228 @@
+body {
+  position: absolute;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #eee; }
+  body * {
+    box-sizing: border-box; }
+
+#tetrobomb-scene {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: #ddd; }
+
+#tetrobomb-scene--scoresection {
+  position: relative;
+  float: left;
+  width: 20%;
+  height: 100%;
+  background-color: #ccc; }
+
+#tetrobomb-scene--gameboard {
+  position: relative;
+  float: left;
+  width: 60%;
+  height: 100%;
+  background-color: #bbb; }
+
+#tetrobomb-scene--hintsection {
+  position: relative;
+  width: 20%;
+  height: 100%;
+  background-color: #aaa; }
+
+.block {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  float: left;
+  transition: all 0.2s ease-in-out; }
+
+.tetrobombino-I.rotate0 .block1 {
+  top: 0;
+  left: 0; }
+.tetrobombino-I.rotate0 .block2 {
+  top: 40px;
+  left: 0; }
+.tetrobombino-I.rotate0 .block3 {
+  top: 80px;
+  left: 0; }
+.tetrobombino-I.rotate0 .block4 {
+  top: 120px;
+  left: 0; }
+.tetrobombino-I.rotate1 .block1 {
+  top: 0;
+  left: 0; }
+.tetrobombino-I.rotate1 .block2 {
+  top: 0;
+  left: 40px; }
+.tetrobombino-I.rotate1 .block3 {
+  top: 0;
+  left: 80px; }
+.tetrobombino-I.rotate1 .block4 {
+  top: 0;
+  left: 120px; }
+.tetrobombino-I.rotate2 .block1 {
+  top: 120px;
+  left: 0; }
+.tetrobombino-I.rotate2 .block2 {
+  top: 80px;
+  left: 0; }
+.tetrobombino-I.rotate2 .block3 {
+  top: 40px;
+  left: 0; }
+.tetrobombino-I.rotate2 .block4 {
+  top: 0;
+  left: 0; }
+.tetrobombino-I.rotate3 .block1 {
+  top: 0;
+  left: 120px; }
+.tetrobombino-I.rotate3 .block2 {
+  top: 0;
+  left: 80px; }
+.tetrobombino-I.rotate3 .block3 {
+  top: 0;
+  left: 40px; }
+.tetrobombino-I.rotate3 .block4 {
+  top: 0;
+  left: 0; }
+
+.tetrobombino-O.rotate0 .block1 {
+  top: 0;
+  left: 0; }
+.tetrobombino-O.rotate0 .block2 {
+  top: 0;
+  left: 40px; }
+.tetrobombino-O.rotate0 .block3 {
+  top: 40px;
+  left: 0; }
+.tetrobombino-O.rotate0 .block4 {
+  top: 40px;
+  left: 40px; }
+.tetrobombino-O.rotate1 .block1 {
+  top: 40px;
+  left: 40px; }
+.tetrobombino-O.rotate1 .block2 {
+  top: 0;
+  left: 0; }
+.tetrobombino-O.rotate1 .block3 {
+  top: 0;
+  left: 40px; }
+.tetrobombino-O.rotate1 .block4 {
+  top: 40px;
+  left: 0; }
+.tetrobombino-O.rotate2 .block1 {
+  top: 40px;
+  left: 0; }
+.tetrobombino-O.rotate2 .block2 {
+  top: 40px;
+  left: 40px; }
+.tetrobombino-O.rotate2 .block3 {
+  top: 0;
+  left: 0; }
+.tetrobombino-O.rotate2 .block4 {
+  top: 0;
+  left: 40px; }
+.tetrobombino-O.rotate3 .block1 {
+  top: 0;
+  left: 40px; }
+.tetrobombino-O.rotate3 .block2 {
+  top: 40px;
+  left: 0; }
+.tetrobombino-O.rotate3 .block3 {
+  top: 40px;
+  left: 40px; }
+.tetrobombino-O.rotate3 .block4 {
+  top: 0;
+  left: 0; }
+
+.tetrobombino-T.rotate0 .block1 {
+  top: 0;
+  left: 40px; }
+.tetrobombino-T.rotate0 .block2 {
+  top: 40px;
+  left: 0; }
+.tetrobombino-T.rotate0 .block3 {
+  top: 40px;
+  left: 40px; }
+.tetrobombino-T.rotate0 .block4 {
+  top: 40px;
+  left: 80px; }
+.tetrobombino-T.rotate1 .block1 {
+  top: 40px;
+  left: 40px; }
+.tetrobombino-T.rotate1 .block2 {
+  top: 0;
+  left: 0; }
+.tetrobombino-T.rotate1 .block3 {
+  top: 40px;
+  left: 0; }
+.tetrobombino-T.rotate1 .block4 {
+  top: 80px;
+  left: 0; }
+.tetrobombino-T.rotate2 .block1 {
+  top: 40px;
+  left: 40px; }
+.tetrobombino-T.rotate2 .block2 {
+  top: 0;
+  left: 80px; }
+.tetrobombino-T.rotate2 .block3 {
+  top: 0;
+  left: 40px; }
+.tetrobombino-T.rotate2 .block4 {
+  top: 0;
+  left: 0; }
+.tetrobombino-T.rotate3 .block1 {
+  top: 40px;
+  left: 0; }
+.tetrobombino-T.rotate3 .block2 {
+  top: 80px;
+  left: 40px; }
+.tetrobombino-T.rotate3 .block3 {
+  top: 40px;
+  left: 40px; }
+.tetrobombino-T.rotate3 .block4 {
+  top: 0;
+  left: 40px; }
+
+.tetrobombino {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  background-color: #999;
+  box-shadow: 0 0 2px 0 #555; }
+  .tetrobombino .block {
+    position: absolute;
+    border: 1px solid #333; }
+
+#tetrobombino-1 {
+  top: 0;
+  left: 0; }
+
+#tetrobombino-2 {
+  top: 0;
+  left: 160px; }
+
+#tetrobombino-3 {
+  top: 160px;
+  left: 0; }
+
+#tetrobombino-4 {
+  top: 160px;
+  left: 160px; }
+
+#tetrobombino-5 {
+  top: 320px;
+  left: 0; }
+
+#tetrobombino-6 {
+  top: 320px;
+  left: 160px; }
+
+#tetrobombino-7 {
+  top: 480px;
+  left: 0; }
+
+/*# sourceMappingURL=style.css.map */
