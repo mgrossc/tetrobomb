@@ -198,31 +198,45 @@ body {
     border: 1px solid #333; }
 
 #tetrobombino-1 {
-  top: 0;
-  left: 0; }
+  position: relative;
+  display: inline-block;
+  width: 160px;
+  height: 160px; }
 
 #tetrobombino-2 {
-  top: 0;
-  left: 160px; }
+  position: relative;
+  display: inline-block;
+  width: 160px;
+  height: 160px; }
 
 #tetrobombino-3 {
-  top: 160px;
-  left: 0; }
+  position: relative;
+  display: inline-block;
+  width: 160px;
+  height: 160px; }
 
 #tetrobombino-4 {
-  top: 160px;
-  left: 160px; }
+  position: relative;
+  display: inline-block;
+  width: 160px;
+  height: 160px; }
 
 #tetrobombino-5 {
-  top: 320px;
-  left: 0; }
+  position: relative;
+  display: inline-block;
+  width: 160px;
+  height: 160px; }
 
 #tetrobombino-6 {
-  top: 320px;
-  left: 160px; }
+  position: relative;
+  display: inline-block;
+  width: 160px;
+  height: 160px; }
 
 #tetrobombino-7 {
-  top: 480px;
-  left: 0; }
+  position: relative;
+  display: inline-block;
+  width: 160px;
+  height: 160px; }
 
 /*# sourceMappingURL=style.css.map */

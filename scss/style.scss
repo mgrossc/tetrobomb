@@ -20,7 +20,7 @@ body {
 	background-color: #ddd;
 }
 
-#tetrobombtetrobomb-scene--scoresection {
+#tetrobomb-scene--scoresection {
 	position: relative;
 	float: left;
 	width: 20%;
@@ -28,7 +28,7 @@ body {
 	background-color: #ccc;
 }
 
-#tetrobombtetrobomb-scene--gameboard {
+#tetrobomb-scene--gameboard {
 	position: relative;
 	float: left;
 	width: 60%;
@@ -36,7 +36,7 @@ body {
 	background-color: #bbb;
 }
 
-#tetrobombtetrobomb-scene--hintsection {
+#tetrobomb-scene--hintsection {
 	position: relative;
 	width: 20%;
 	height: 100%;
@@ -157,36 +157,50 @@ body {
 }
 
 #tetrobombino-1 {
-	top: 0;
-	left: 0;
+	position: relative;
+	display:inline-block;
+	width: $blockSize * 4;
+	height: $blockSize * 4;
 }
 
 #tetrobombino-2 {
-	top: 0;
-	left: $tetrobombinoSize;
+	position: relative;
+	display:inline-block;
+	width: $blockSize * 4;
+	height: $blockSize * 4;
 }
 
 #tetrobombino-3 {
-	top: $tetrobombinoSize;
-	left: 0;
+	position: relative;
+	display:inline-block;
+	width: $blockSize * 4;
+	height: $blockSize * 4;
 }
 
 #tetrobombino-4 {
-	top: $tetrobombinoSize;
-	left: $tetrobombinoSize;
+	position: relative;
+	display:inline-block;
+	width: $blockSize * 4;
+	height: $blockSize * 4;
 }
 
 #tetrobombino-5 {
-	top: $tetrobombinoSize * 2;
-	left: 0;
+	position: relative;
+	display:inline-block;
+	width: $blockSize * 4;
+	height: $blockSize * 4;
 }
 
 #tetrobombino-6 {
-	top: $tetrobombinoSize * 2;
-	left: $tetrobombinoSize;
+	position: relative;
+	display:inline-block;
+	width: $blockSize * 4;
+	height: $blockSize * 4;
 }
 
 #tetrobombino-7 {
-	top: $tetrobombinoSize * 3;
-	left: 0;
+	position: relative;
+	display:inline-block;
+	width: $blockSize * 4;
+	height: $blockSize * 4;
 }
