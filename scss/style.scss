@@ -55,30 +55,30 @@ body {
 .tetrobombino-I {
 	&.rotate0 {
 		.block1 { top: 0; left: 0; }
-		.block2 { top: $blockSize; left: 0; }
-		.block3 { top: $blockSize * 2; left: 0; }
-		.block4 { top: $blockSize * 3; left: 0; }
-	}
-
-	&.rotate1 {
-		.block1 { top: 0; left: 0; }
 		.block2 { top: 0; left: $blockSize; }
 		.block3 { top: 0; left: $blockSize * 2; }
 		.block4 { top: 0; left: $blockSize * 3; }
 	}
 
-	&.rotate2 {
+	&.rotate1 {
 		.block1 { top: $blockSize * 3; left: 0; }
 		.block2 { top: $blockSize * 2; left: 0; }
 		.block3 { top: $blockSize; left: 0; }
 		.block4 { top: 0; left: 0; }
 	}
 
-	&.rotate3 {
+	&.rotate2 {
 		.block1 { top: 0; left: $blockSize * 3; }
 		.block2 { top: 0; left: $blockSize * 2; }
 		.block3 { top: 0; left: $blockSize; }
 		.block4 { top: 0; left: 0; }
+	}
+
+	&.rotate3 {
+		.block1 { top: 0; left: 0; }
+		.block2 { top: $blockSize; left: 0; }
+		.block3 { top: $blockSize * 2; left: 0; }
+		.block4 { top: $blockSize * 3; left: 0; }
 	}
 }
 
@@ -143,17 +143,50 @@ body {
 	}
 }
 
+.tetrobombino-S {
+
+	&.rotate0 {
+		.block1 { top: 0; left: $blockSize; }
+		.block2 { top: 0; left: $blockSize * 2; }
+		.block3 { top: $blockSize; left: 0; }
+		.block4 { top: $blockSize; left: $blockSize; }
+	}
+
+	&.rotate1 {
+		.block1 { top: $blockSize; left: $blockSize; }
+		.block2 { top: $blockSize * 2; left: $blockSize; }
+		.block3 { top: 0; left: 0; }
+		.block4 { top: $blockSize; left: 0; }
+	}
+
+	&.rotate2 {
+		.block1 { top: $blockSize; left: $blockSize; }
+		.block2 { top: $blockSize; left: 0; }
+		.block3 { top: 0; left: $blockSize * 2; }
+		.block4 { top: 0; left: $blockSize; }
+	}
+
+	&.rotate3 {
+		.block1 { top: $blockSize; left: 0; }
+		.block2 { top: 0; left: 0; }
+		.block3 { top: $blockSize * 2; left: $blockSize; }
+		.block4 { top: $blockSize; left: $blockSize; }
+	}
+}
+
 .tetrobombino {
 	position: absolute;
 	width: $blockSize * 4;
 	height: $blockSize * 4;
 	background-color: #999;
 	box-shadow: 0 0 2px 0 #555;
+}
 
-	.block {
-		position: absolute;
-		border: 1px solid #333;
-	}
+.block {
+	position: absolute;		
+	border: 1px solid #333;
+	text-align: center;
+	line-height: $blockSize;
 }
 
 #tetrobombino-1 {
