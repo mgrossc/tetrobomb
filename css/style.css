@@ -236,6 +236,55 @@ body {
   top: 40px;
   left: 40px; }
 
+.tetrobombino-Z.rotate0 .block1 {
+  top: 0;
+  left: 0; }
+.tetrobombino-Z.rotate0 .block2 {
+  top: 0;
+  left: 40px; }
+.tetrobombino-Z.rotate0 .block3 {
+  top: 40px;
+  left: 40px; }
+.tetrobombino-Z.rotate0 .block4 {
+  top: 40px;
+  left: 80px; }
+.tetrobombino-Z.rotate1 .block1 {
+  top: 0;
+  left: 40px; }
+.tetrobombino-Z.rotate1 .block2 {
+  top: 40px;
+  left: 40px; }
+.tetrobombino-Z.rotate1 .block3 {
+  top: 40px;
+  left: 0; }
+.tetrobombino-Z.rotate1 .block4 {
+  top: 80px;
+  left: 0; }
+.tetrobombino-Z.rotate2 .block1 {
+  top: 40px;
+  left: 80px; }
+.tetrobombino-Z.rotate2 .block2 {
+  top: 40px;
+  left: 40px; }
+.tetrobombino-Z.rotate2 .block3 {
+  top: 0;
+  left: 40px; }
+.tetrobombino-Z.rotate2 .block4 {
+  top: 0;
+  left: 0; }
+.tetrobombino-Z.rotate3 .block1 {
+  top: 80px;
+  left: 0; }
+.tetrobombino-Z.rotate3 .block2 {
+  top: 40px;
+  left: 0; }
+.tetrobombino-Z.rotate3 .block3 {
+  top: 40px;
+  left: 40px; }
+.tetrobombino-Z.rotate3 .block4 {
+  top: 0;
+  left: 40px; }
+
 .tetrobombino {
   position: absolute;
   width: 160px;
