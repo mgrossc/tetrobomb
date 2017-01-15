@@ -53,28 +53,28 @@ body {
 }
 
 .tetrobombino-I {
-	&.rotate0 {
+	&.r0 {
 		.block1 { top: 0; left: 0; }
 		.block2 { top: 0; left: $blockSize; }
 		.block3 { top: 0; left: $blockSize * 2; }
 		.block4 { top: 0; left: $blockSize * 3; }
 	}
 
-	&.rotate1 {
+	&.r1 {
 		.block1 { top: $blockSize * 3; left: 0; }
 		.block2 { top: $blockSize * 2; left: 0; }
 		.block3 { top: $blockSize; left: 0; }
 		.block4 { top: 0; left: 0; }
 	}
 
-	&.rotate2 {
+	&.r2 {
 		.block1 { top: 0; left: $blockSize * 3; }
 		.block2 { top: 0; left: $blockSize * 2; }
 		.block3 { top: 0; left: $blockSize; }
 		.block4 { top: 0; left: 0; }
 	}
 
-	&.rotate3 {
+	&.r3 {
 		.block1 { top: 0; left: 0; }
 		.block2 { top: $blockSize; left: 0; }
 		.block3 { top: $blockSize * 2; left: 0; }
@@ -83,28 +83,28 @@ body {
 }
 
 .tetrobombino-O {
-	&.rotate0 {
+	&.r0 {
 		.block1 { top: 0; left: 0; }
 		.block2 { top: 0; left: $blockSize; }
 		.block3 { top: $blockSize; left: 0; }
 		.block4 { top: $blockSize; left: $blockSize; }
 	}
 
-	&.rotate1 {
+	&.r1 {
 		.block1 { top: $blockSize; left: $blockSize; }
 		.block2 { top: 0; left: 0; }
 		.block3 { top: 0; left: $blockSize; }
 		.block4 { top: $blockSize; left: 0; }
 	}
 
-	&.rotate2 {
+	&.r2 {
 		.block1 { top: $blockSize; left: 0; }
 		.block2 { top: $blockSize; left: $blockSize; }
 		.block3 { top: 0; left: 0; }
 		.block4 { top: 0; left: $blockSize; }
 	}
 
-	&.rotate3 {
+	&.r3 {
 		.block1 { top: 0; left: $blockSize; }
 		.block2 { top: $blockSize; left: 0; }
 		.block3 { top: $blockSize; left: $blockSize; }
@@ -114,28 +114,28 @@ body {
 
 .tetrobombino-T {
 
-	&.rotate0 {
+	&.r0 {
 		.block1 { top: 0; left: $blockSize; }
 		.block2 { top: $blockSize; left: 0; }
 		.block3 { top: $blockSize; left: $blockSize; }
 		.block4 { top: $blockSize; left: $blockSize * 2; }
 	}
 
-	&.rotate1 {
+	&.r1 {
 		.block1 { top: $blockSize; left: $blockSize; }
 		.block2 { top: 0; left: 0; }
 		.block3 { top: $blockSize; left: 0; }
 		.block4 { top: $blockSize * 2; left: 0; }
 	}
 
-	&.rotate2 {
+	&.r2 {
 		.block1 { top: $blockSize; left: $blockSize; }
 		.block2 { top: 0; left: $blockSize * 2; }
 		.block3 { top: 0; left: $blockSize; }
 		.block4 { top: 0; left: 0; }
 	}
 
-	&.rotate3 {
+	&.r3 {
 		.block1 { top: $blockSize; left: 0; }
 		.block2 { top: $blockSize * 2; left: $blockSize; }
 		.block3 { top: $blockSize; left: $blockSize; }
@@ -145,28 +145,28 @@ body {
 
 .tetrobombino-S {
 
-	&.rotate0 {
+	&.r0 {
 		.block1 { top: 0; left: $blockSize; }
 		.block2 { top: 0; left: $blockSize * 2; }
 		.block3 { top: $blockSize; left: 0; }
 		.block4 { top: $blockSize; left: $blockSize; }
 	}
 
-	&.rotate1 {
+	&.r1 {
 		.block1 { top: $blockSize; left: $blockSize; }
 		.block2 { top: $blockSize * 2; left: $blockSize; }
 		.block3 { top: 0; left: 0; }
 		.block4 { top: $blockSize; left: 0; }
 	}
 
-	&.rotate2 {
+	&.r2 {
 		.block1 { top: $blockSize; left: $blockSize; }
 		.block2 { top: $blockSize; left: 0; }
 		.block3 { top: 0; left: $blockSize * 2; }
 		.block4 { top: 0; left: $blockSize; }
 	}
 
-	&.rotate3 {
+	&.r3 {
 		.block1 { top: $blockSize; left: 0; }
 		.block2 { top: 0; left: 0; }
 		.block3 { top: $blockSize * 2; left: $blockSize; }
@@ -176,28 +176,28 @@ body {
 
 .tetrobombino-Z {
 
-	&.rotate0 {
+	&.r0 {
 		.block1 { top: 0; left: 0; }
 		.block2 { top: 0; left: $blockSize; }
 		.block3 { top: $blockSize; left: $blockSize; }
 		.block4 { top: $blockSize; left: $blockSize * 2; }
 	}
 
-	&.rotate1 {
+	&.r1 {
 		.block1 { top: 0; left: $blockSize; }
 		.block2 { top: $blockSize; left: $blockSize; }
 		.block3 { top: $blockSize; left: 0; }
 		.block4 { top: $blockSize * 2; left: 0; }
 	}
 
-	&.rotate2 {
+	&.r2 {
 		.block1 { top: $blockSize; left: $blockSize * 2; }
 		.block2 { top: $blockSize; left: $blockSize; }
 		.block3 { top: 0; left: $blockSize; }
 		.block4 { top: 0; left: 0; }
 	}
 
-	&.rotate3 {
+	&.r3 {
 		.block1 { top: $blockSize * 2; left: 0; }
 		.block2 { top: $blockSize; left: 0; }
 		.block3 { top: $blockSize; left: $blockSize; }
@@ -207,28 +207,28 @@ body {
 
 .tetrobombino-J {
 
-	&.rotate0 {
+	&.r0 {
 		.block1 { top: 0; left: 0; }
 		.block2 { top: $blockSize; left: 0; }
 		.block3 { top: $blockSize; left: $blockSize; }
 		.block4 { top: $blockSize; left: $blockSize * 2; }
 	}
 
-	&.rotate1 {
+	&.r1 {
 		.block1 { top: 0; left: $blockSize; }
 		.block2 { top: 0; left: 0; }
 		.block3 { top: $blockSize; left: 0; }
 		.block4 { top: $blockSize * 2; left: 0; }
 	}
 
-	&.rotate2 {
+	&.r2 {
 		.block1 { top: $blockSize; left: $blockSize * 2; }
 		.block2 { top: 0; left: $blockSize * 2; }
 		.block3 { top: 0; left: $blockSize; }
 		.block4 { top: 0; left: 0; }
 	}
 
-	&.rotate3 {
+	&.r3 {
 		.block1 { top: $blockSize * 2; left: 0; }
 		.block2 { top: $blockSize * 2; left: $blockSize; }
 		.block3 { top: $blockSize; left: $blockSize; }
